@@ -1,0 +1,305 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  /* background:#f1f6fa url('page.png') fixed; */
+}
+h1, h2, h3, h4 {
+  color: #000080ff;
+  font-family: 'Halant', serif;
+}
+
+.navbar{
+    justify-content: center;
+    border-bottom: 5px solid #000080ff;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+    float: none;
+    width: auto;
+    margin-top: 13px;
+    padding: 15px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+/* change the background color */
+.navbar-custom {
+    background-color: #FFF;
+    min-height: 70px;
+    padding: 0;
+}
+.navbar-brand{
+  height: 70px;
+  width: 20%;
+  position: relative;
+  display: block;
+  float: left;
+  background: #FFF;
+  margin: 0 0 0 10px;
+  cursor: default;
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand{
+    width: 70%;
+    margin: 0;
+  }
+}
+.navbar-brand img{
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  margin: auto;
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px;
+}
+/* change the brand and text color */
+/* .navbar-custom .navbar-text {
+    color: #F827F6;
+    padding: 0.8rem 1rem;
+    height: 70px;
+    line-height: 70px;
+} */
+#navbarCustom {
+  background-color: #FFF;
+  text-align: center;
+}
+.nav-link {
+    white-space: nowrap;
+}
+/* change the link color and add padding for height */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000080ff;
+    padding: 22px 10px;
+    height: 70px;
+    background-color: #FFF;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    border:0;
+    outline: none;
+    background-color: #FFF;
+    font-family: inherit;
+}
+.navbar-custom .navbar-nav .nav-link img {
+  height: 60px;
+  padding: 5px;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  background-color: #000080ff; /* add background-color to active links */
+  color: #FFF;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #FFF;
+}
+.navbar-custom .nav-item.active .nav-link{
+  padding: 0;
+  margin: auto;
+  text-align:center;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+  background-color: #FFF;
+}
+.navbar-custom .dropdown-item {
+    color: #000080ff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #FFF;
+    background-color: #000080ff;
+}
+.navbar-light .navbar-toggler {
+  margin: auto;
+}
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  /* margin-top: 80px; */
+  margin-bottom: 62px;
+  padding: 5px 10px;
+  background: #f1f6fa;
+  box-shadow:0px 0px 60px #d9d9d9;
+  z-index: -1;
+}
+#myCarousel{
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+  position:relative;
+}
+.carousel-inner, .item{
+  height: 30vh;
+  margin:auto;
+}
+.item img{
+  max-height: 30vh !important;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  font-family: 'Halant', serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.main .address {
+  font-weight: bold;
+  text-align: left;
+}
+.main .contact a {
+  text-decoration: none;
+  color: #000;
+}
+.main table {
+  width: 100%;
+  padding: auto;
+}
+.main table td{
+  padding: auto;
+}
+.main td:first-child {
+  font-weight: bold
+}
+.fa-map:hover {
+    color: green;
+}
+.main a {
+  color: #002366;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main .group{
+  text-align: center;
+}
+.Image{
+  display: inline-block;
+  width: 100%;
+  max-height: 50vh;
+  align-content: center;
+}
+.Image img{
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.details{
+  display: inline-block;
+  height: 50vh;
+  align-content: center;
+  margin: auto;
+}
+
+.mapFrame {
+  display: inline-block;
+  height: 50vh;
+  padding: 10px;
+  margin: auto;
+}
+iframe {
+  margin: auto;
+  width: auto;
+  height: 100%;
+}
+.member{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+}
+.member .member-details-left{
+  grid-column: 1;
+}
+.member .member-details-right{
+  grid-column: 2;
+  display: block;
+}
+.member-details-left img,
+.member-details-right img{
+  max-width: 100%;
+  max-height: 50vh;
+  border: thick solid #000080ff;
+  border-radius: 30px;
+}
+.member-details-left .dual img,
+.member-details-right .dual img{
+  display: inline;
+  max-width: 45%;
+  max-height: 50vh;
+  border: thick solid #000080ff;
+  border-radius: 30px;
+}
+
+.collabs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+}
+.collabs .collabs-details-left{
+  grid-column: 1;
+  margin: auto;
+}
+.collabs .collabs-details-right{
+  grid-column: 2;
+  margin: auto;
+}
+.collabs-details-left img,
+.collabs-details-right img{
+  max-width: 100%;
+  max-height: 20vh;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .member {
+    display: block;
+  }
+  .carousel-inner, .item{
+    height: 20vh;
+    margin:auto;
+  }
+  .item img{
+    max-height: 20vh !important;
+  }
+}
