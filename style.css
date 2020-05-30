@@ -249,6 +249,7 @@ iframe {
 }
 .member .member-details-left{
   grid-column: 1;
+  display: block;
 }
 .member .member-details-right{
   grid-column: 2;
@@ -268,6 +269,7 @@ iframe {
   max-height: 50vh;
   border: thick solid #000080ff;
   border-radius: 30px;
+  margin-bottom: 10px;
 }
 
 .collabs{
