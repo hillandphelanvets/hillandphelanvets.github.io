@@ -11,6 +11,20 @@ h1, h2, h3, h4 {
   font-family: 'Halant', serif;
 }
 
+.imghover:hover{
+    color: #424242;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(2.15);
+  -ms-transform: scale(2.15); /* IE 9 */
+  -webkit-transform: scale(2.15); /* Safari and Chrome */
+
+}
+
 .navbar{
     justify-content: center;
     border-bottom: 5px solid #000080ff;
